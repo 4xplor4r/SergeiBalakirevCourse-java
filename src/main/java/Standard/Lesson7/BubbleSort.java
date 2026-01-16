@@ -1,10 +1,10 @@
 /*** Пузырьковая сортировка, для разминки ***/
 
-package Standard.Lesson7_chapter2;
+package Standard.Lesson7;
 
 import static java.lang.System.out;
 
-public class Main {
+public class BubbleSort {
     public static void main(String[] args) {
         int[] standardArray = new int[] {3, 5, 1, 6, 2, 4}; // инициализация через {}
 
@@ -32,10 +32,10 @@ public class Main {
         standardArray = new int[] {3, 5, 1, 6, 2, 4};
         // какая-то псевдопузырьковая сортировка по возрастанию, которую я придумал сам
         // имеется проблема с лишними присваиваниями
-        for (int i = 0; i < standardArray.length - 1; ++i) { // -1, так как нет смысла проверять последний элемент
+        for (int i = 0; i < standardArray.length - 1; ++i) {  // -1, так как нет смысла проверять последний элемент
             int elementToMove = standardArray[i];
             int toMoveIndex = i;
-            for (int j = i + 1; j < standardArray.length; ++j) { // +1, так как сверять элемент с самим собой нет необходимости
+            for (int j = i + 1; j < standardArray.length; ++j) {  // +1, так как сверять элемент с самим собой нет необходимости
                 if (elementToMove > standardArray[j]) {
                     standardArray[toMoveIndex] = standardArray[j];
                     standardArray[j] = elementToMove;

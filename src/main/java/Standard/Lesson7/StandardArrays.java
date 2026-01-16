@@ -14,7 +14,7 @@
 
 package Standard.Lesson7;
 
-public class Main {
+public class StandardArrays {
     public static void main(String[] args) {
         /* === Инициализация простых массивов === */
         java.util.Scanner in = new java.util.Scanner(System.in);
