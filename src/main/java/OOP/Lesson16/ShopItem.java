@@ -1,5 +1,5 @@
 
-package OOP.Lesson15;
+package OOP.Lesson16;
 
 class ShopItem {  // package-private
     private Integer id;

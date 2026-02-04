@@ -1,4 +1,4 @@
-package OOP.Lesson15;
+package OOP.Lesson16;
 
 public class Singleton {
     private static Singleton instance = null;  // по умолчанию нет объекта

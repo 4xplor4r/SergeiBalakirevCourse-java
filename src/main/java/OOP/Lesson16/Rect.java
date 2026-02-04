@@ -1,4 +1,4 @@
-package OOP.Lesson15;
+package OOP.Lesson16;
 
 class Rect {
     private double x1; private double y1;  // правый верхний

@@ -1,4 +1,4 @@
-package OOP.Lesson15;
+package OOP.Lesson16;
 
 import static java.lang.System.out;  // статический импорт,
                                      // для испольхзования стат. классов в стат. main
